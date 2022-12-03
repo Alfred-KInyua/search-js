@@ -1,5 +1,6 @@
 body {
   background-color: blueviolet;
+  overflow: hidden;
 }
 #container {
   background-color: bisque;
@@ -9,15 +10,20 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  position: relative;
+  padding: 15px;
 }
 input[type='text'],
 select,
 textarea {
+  padding: 15px;
+  border-style: none;
+  font-size: 18px;
   width: 10px;
   background-color: red;
   font-weight: bolder;
   color: blue;
-  transition: width 1s, background-color 0.5s;
+  transition: width 1s ease, background-color 0.5s;
 }
 input:hover[type='text'],
 select,
