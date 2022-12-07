@@ -1,35 +1,12 @@
 body {
-  background-color: blueviolet;
-  overflow: hidden;
+  background-color: blue;
 }
 #container {
-  background-color: bisque;
+  background-color: antiquewhite;
 }
-#cont {
+#holder {
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  position: relative;
-  padding: 15px;
-}
-input[type='text'],
-select,
-textarea {
-  padding: 15px;
-  border-style: none;
-  font-size: 18px;
-  width: 10px;
-  background-color: red;
-  font-weight: bolder;
-  color: blue;
-  transition: width 1s ease, background-color 0.5s;
-}
-input:hover[type='text'],
-select,
-textarea {
-  width: 100px;
-  background-color: white;
-  color: black;
-  transition: width 0.5s, color 0.5s, background-color 0.5s;
 }
