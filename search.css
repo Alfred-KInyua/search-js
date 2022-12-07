@@ -1,15 +1,13 @@
 body {
   background-color: blue;
 }
-#container {
-  background-color: antiquewhite;
-}
-#holder {
+#search {
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 input[type='text'],
 select {
   background-color: red;
